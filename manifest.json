@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Skyscanner 終極過濾器",
+  "version": "4.0",
+  "permissions": ["storage"],
+  "action": { "default_popup": "popup.html" },
+  "content_scripts": [{
+    "matches": ["https://www.skyscanner.com.tw/*"],
+    "js": ["content.js"]
+  }]
+}

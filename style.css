@@ -1,0 +1,4 @@
+/* 你可以自訂符合條件的機票外觀 */
+[class*='Ticket_TicketWrapper'] {
+    transition: all 0.3s ease;
+}
